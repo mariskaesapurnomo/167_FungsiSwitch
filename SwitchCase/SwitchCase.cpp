@@ -67,8 +67,18 @@ int main()
 			cout << "\nHasil perkalian: " << perkalian(bilangan1, bilangan2) << endl;
 			system("pause");
 			break;
+		case 4: 
+			inputData();
+			cout << "\nHasil pembagian: " << pembagian(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 5:
+			break;
+		default:
+			cout << "Pilihan tidak valid" << endl;
+			system("pause");
+			break;
 
-
-		}
+			
 	}
 }
