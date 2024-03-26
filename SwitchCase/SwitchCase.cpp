@@ -55,6 +55,11 @@ int main()
 		case 1:
 			inputData();
 			cout << "\nHasil penjumlahan: " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+
+
+
 		}
 	}
 }
