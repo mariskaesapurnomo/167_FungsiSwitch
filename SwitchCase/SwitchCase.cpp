@@ -18,8 +18,10 @@ int pengurangan(int a, int b)
 
 int perkalian(int a, int b)
 {
-	return 0;
+	return a * b;
 }
+
+
 
 int main()
 {
