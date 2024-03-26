@@ -67,7 +67,7 @@ int main()
 			cout << "\nHasil perkalian: " << perkalian(bilangan1, bilangan2) << endl;
 			system("pause");
 			break;
-		case 4: 
+		case 4:
 			inputData();
 			cout << "\nHasil pembagian: " << pembagian(bilangan1, bilangan2) << endl;
 			system("pause");
@@ -78,7 +78,9 @@ int main()
 			cout << "Pilihan tidak valid" << endl;
 			system("pause");
 			break;
+		}
 
-			
-	}
+	} while (pilihan != 5);			//!= adalah tidak sama dengan.
+
+	return 0;
 }
