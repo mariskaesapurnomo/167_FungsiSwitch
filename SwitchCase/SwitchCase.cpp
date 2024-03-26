@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int bilangan, bilangan2;
+int bilangan1, bilangan2;
 
 int penjumlahan(int a, int b)
 {
@@ -26,6 +26,13 @@ int pembagian(float a, float b)
 	return a / b;
 }
 
+int inputData()
+{
+	cout << "\nMasukkan bilangan pertama: ";
+	cin >> bilangan1;
+	cout << "Masukkan bilangan kedua: ";
+	cin >> bilangan2;
+}
 
 
 int main()
